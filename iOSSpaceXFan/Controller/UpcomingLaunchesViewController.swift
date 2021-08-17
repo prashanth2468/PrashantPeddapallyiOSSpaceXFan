@@ -11,9 +11,11 @@ class UpcomingLaunchesViewController: UIViewController {
     var spaceXRes : [SpaceXUpcomingModel]?
     @IBOutlet weak var upcomingTableView: UITableView!
     
+    @IBOutlet weak var upcomingLblHeader: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.upcomingLblHeader.text = "Upcoming Rockets".Localized()
         self.upcomingTableView.delegate = self
         self.upcomingTableView.dataSource = self
         

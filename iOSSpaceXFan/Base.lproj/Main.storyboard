@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4UO-7S-xSu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4UO-7S-xSu">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -170,7 +170,7 @@
                                 <color key="backgroundColor" red="0.074201412499999994" green="0.097678460179999996" blue="0.1215760484" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeCell" rowHeight="235" id="PH0-Y1-UHU" customClass="HomeCell" customModule="iOSSpaceXFan" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="235"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="235"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PH0-Y1-UHU" id="2WK-Q5-p2O">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="235"/>
@@ -284,6 +284,7 @@
                     <navigationItem key="navigationItem" id="I6g-Sx-uJD"/>
                     <connections>
                         <outlet property="homeTableView" destination="1Zb-9d-IOo" id="POu-iI-gx6"/>
+                        <outlet property="spaceXHeader" destination="Riz-lb-uAp" id="HSR-tT-3dv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iED-V3-NzT" sceneMemberID="firstResponder"/>
@@ -330,7 +331,7 @@
                                 <color key="backgroundColor" red="0.074201412499999994" green="0.097678460179999996" blue="0.1215760484" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavouriteCell" rowHeight="219" id="OEm-fx-bIY" customClass="FavouriteCell" customModule="iOSSpaceXFan" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="219"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="219"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OEm-fx-bIY" id="CEp-iW-VTc">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="219"/>
@@ -490,7 +491,7 @@
                                 <color key="backgroundColor" red="0.08216815442" green="0.097743697460000001" blue="0.1176529601" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UpcomingTableViewCell" rowHeight="130" id="cH4-xw-mUp" customClass="UpcomingTableViewCell" customModule="iOSSpaceXFan" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="130"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cH4-xw-mUp" id="XSp-1u-vg1">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
@@ -565,6 +566,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="u11-CB-xwC"/>
                     <connections>
+                        <outlet property="upcomingLblHeader" destination="gwh-Pb-Nfw" id="Mhw-6A-mgV"/>
                         <outlet property="upcomingTableView" destination="gQX-FB-2Ls" id="iMA-uy-8sf"/>
                     </connections>
                 </viewController>

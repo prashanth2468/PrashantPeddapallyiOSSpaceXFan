@@ -10,6 +10,7 @@ import CoreData
 class SpaceXRocketsListVC: UIViewController,UIGestureRecognizerDelegate {
     
     var topView: UIView?
+    @IBOutlet weak var spaceXHeader: UILabel!
     
     var spaceXRes : [SpaceXModel]?
 
@@ -20,7 +21,7 @@ class SpaceXRocketsListVC: UIViewController,UIGestureRecognizerDelegate {
         self.homeTableView.dataSource = self
        self.homeTableView.allowsSelection = true
         
-      
+        spaceXHeader.text = "SpaceXTittle".Localized()
         fetchSpaceX { [weak self] (spaceXResponse) in
         print(spaceXResponse)
                 self?.spaceXRes = [spaceXResponse]
