@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "SpaceX Favorites"; ObjectID = "6bQ-j3-Tt2"; */
+"6bQ-j3-Tt2.text" = "SpaceX Favorites";
+
+/* Class = "UILabel"; text = "Active"; ObjectID = "A73-SO-Wnu"; */
+"A73-SO-Wnu.text" = "Active";
+
+/* Class = "UILabel"; text = "Rocket Description"; ObjectID = "DNr-aL-IEY"; */
+"DNr-aL-IEY.text" = "Rocket Description";
+
+/* Class = "UILabel"; text = "Rocket Description"; ObjectID = "ENG-M3-NLp"; */
+"ENG-M3-NLp.text" = "Rocket Description";
+
+/* Class = "UILabel"; text = "NASA"; ObjectID = "FiR-NE-J1O"; */
+"FiR-NE-J1O.text" = "NASA";
+
+/* Class = "UILabel"; text = "Upcoming"; ObjectID = "InY-V4-VhS"; */
+"InY-V4-VhS.text" = "Upcoming";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Jk5-i0-LYR"; */
+"Jk5-i0-LYR.text" = "Label";
+
+/* Class = "UILabel"; text = "Up coming Rocket list"; ObjectID = "MfS-bD-iww"; */
+"MfS-bD-iww.text" = "Up coming Rocket list";
+
+/* Class = "UIButton"; normalTitle = "Go To Upcoming"; ObjectID = "PeD-Mw-V97"; */
+"PeD-Mw-V97.normalTitle" = "Go To Upcoming";
+
+/* Class = "UILabel"; text = "SpaceXFan"; ObjectID = "Riz-lb-uAp"; */
+"Riz-lb-uAp.text" = "SpaceXFan";
+
+/* Class = "UILabel"; text = "You have not placed a vehicle in your watchlist yet"; ObjectID = "X0f-KR-wND"; */
+"X0f-KR-wND.text" = "You have not placed a vehicle in your watchlist yet";
+
+/* Class = "UILabel"; text = "Active"; ObjectID = "Y4O-dh-Pzl"; */
+"Y4O-dh-Pzl.text" = "Active";
+
+/* Class = "UILabel"; text = "NASA"; ObjectID = "YlY-7o-3Iq"; */
+"YlY-7o-3Iq.text" = "NASA";
+
+/* Class = "UILabel"; text = "There is nothing to display."; ObjectID = "d9u-AJ-03U"; */
+"d9u-AJ-03U.text" = "There is nothing to display.";
+
+/* Class = "UILabel"; text = "Up coming Rocket list"; ObjectID = "eEg-S7-CZY"; */
+"eEg-S7-CZY.text" = "Up coming Rocket list";
+
+/* Class = "UILabel"; text = "Upcoming"; ObjectID = "gwh-Pb-Nfw"; */
+"gwh-Pb-Nfw.text" = "Upcoming";
+
+/* Class = "UILabel"; text = "NASA"; ObjectID = "rvT-iO-2rq"; */
+"rvT-iO-2rq.text" = "NASA";
+
+/* Class = "UILabel"; text = "NASA"; ObjectID = "xXp-SD-F0I"; */
+"xXp-SD-F0I.text" = "NASA";
